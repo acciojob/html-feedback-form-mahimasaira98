@@ -11,19 +11,20 @@
     <script type="text/javascript" src="./script.js">
 	  <form>
         <h1>Feedback Form</h1>
-        <input type="text" maxlength="50" minlength="3" id="name" required>
-        <label for="name">Name</label>
-        <input type="url" id="portfolio" required>
-        <label for="portfolio">Website link</label>
+		 <label for="name">Name</label>
+        <input type="text" maxlength="50" minlength="3" id="name" required><br>
+        <label for="portfolio">Website link</label> 
+        <input type="url" id="portfolio" required><br>
         <label for="favColor">Choose a color:</label>
         <select id="favColor" name="favColor" size="3">
             <option value="blue">Blue</option>
             <option value="black">Black</option>
             <option value="red">Red</option>
             <option value="green">Green</option>
-        </select>
+        </select><br>
         <label for="likeness">How much do you like the color?</label>
         <input type="range" min="1" max="100" value="50" class="slider" id="linkeness">
+		  <button type="submit">Submit</button
     </form>
 </script>
 
